@@ -317,3 +317,6 @@ footer{
     text-align: center;
     height: auto;
 }
+
+.box { transition: .25s; background:#eee; padding:20px; }
+.box.active { background:#cfc; transform: scale(.98); }
