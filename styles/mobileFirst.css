@@ -257,10 +257,6 @@ article{
     border: 1px solid rgb(0, 81, 255);
     border-left: 16px solid rgb(0, 81, 255);
 }
-.course:active{
-    border: 1px solid rgb(0, 81, 255);
-    border-left: 16px solid rgb(0, 81, 255);
-}
 
 .course > p{
     padding-left: 20px;
@@ -317,6 +313,3 @@ footer{
     text-align: center;
     height: auto;
 }
-
-.box { transition: .25s; background:#eee; padding:20px; }
-.box.active { background:#cfc; transform: scale(.98); }
