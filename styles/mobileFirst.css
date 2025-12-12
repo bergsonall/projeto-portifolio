@@ -8,6 +8,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 html, body{
     height: 100vh;
     overflow-x: hidden;
@@ -162,7 +166,7 @@ main{
 }
 
 .skills{
-    scroll-margin-top: 60px;
+    scroll-margin-top: 80px;
 }
 
 .skill{
@@ -236,7 +240,7 @@ article{
 }
 
 #graduation{
-    scroll-margin-top: 60px;
+    scroll-margin-top: 80px;
     padding: 5px;
     border-radius: 10px;
 }
@@ -269,7 +273,7 @@ article{
 }
 
 #project{
-    scroll-margin-top: 60px;
+    scroll-margin-top: 80px;
 }
 
 .img-project{
