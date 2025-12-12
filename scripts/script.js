@@ -42,3 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+const details = document.querySelectorAll("descricao");
+
+details.forEach(d => {
+  d.addEventListener("click", () => {
+    details.forEach(other => {
+      if (other !== d) other.removeAttribute("open");
+    });
+  });
+});
